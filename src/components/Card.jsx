@@ -20,21 +20,21 @@ const Card = () => {
           <m.div
             className="w-40 h-40 bg-black"
             initial={{
-              rotate: "0deg",
+              // rotate: "0deg",
               scale: 0,
             }}
             animate={{
-              rotate: "90deg",
+              // rotate: "90deg",
               scale: 1,
             }}
             exit={{
-              rotate: "0deg",
+              // rotate: "0deg",
               scale: 0,
             }}
-            transition={{
-              duration: 1,
-              ease: "backInOut",
-            }}
+            // transition={{
+            //   duration: 1,
+            //   ease: "backInOut",
+            // }}
           ></m.div>
         )}
       </AnimatePresence>
